@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _putchar - the function thta prints the _putchar
  *
@@ -7,12 +8,6 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void _putchar(void);
-int main(void)
-{
-	_putchar();
-	return (0);
-}
 void _putchar(void)
 {
 	printf("_putchar\n");
